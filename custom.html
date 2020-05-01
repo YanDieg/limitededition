@@ -3,28 +3,26 @@ title: Custom Design
 hero: Custom Design
 ---
 
-<p class="editor-link" style="text-align: center; position: relative;
-    top: -185px;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-			<div class="name">{{ person.name }}</div>
-		</li>
-	{% endfor %}
-</ul>
+<div class="content">
+	<section class="page">
+		<div class="container">
+			<div class="product-container">
+				<div class="styles">
+					<div class="style">
+						<a href="mailto:clienti@gadgetmania.it">
+							<img src="{{ site.baseurl }}/images/products/pota/black.jpg">
+						</a>
+					</div>
+			</div>
+				<div class="product-details">
+					<h3>Custom Design</h3>
+					<h4>Per prodotti personalizzati con il tuo design scrivi a clienti@gadgetmania.it oppure tramite il form di contatto</h4>
 
-<div class="thirds story-points">
-	<div>
-		<h3 class="editable">Passion</h3>
-		<p class="editable">What more could you want from life than drawing animals and bringing happiness to others? We hope this passion show through in our work.</p>
-	</div>
-	<div>
-		<h3 class="editable">Animal</h3>
-		<p class="editable">It's easy to forget that we're all part of the animal kingdom. Fur is a brand that helps you get in touch with your inner animal.</p>
-	</div>
-	<div>
-		<h3 class="editable">Style</h3>
-		<p class="editable">We like to keep things plain and simple around here to help the animals speak for themselves.</p>
-	</div>
+					
+				</div>
+			</div>
+
+			
+		</div>
+	</section>
 </div>
