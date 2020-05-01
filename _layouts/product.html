@@ -10,6 +10,9 @@ layout: default
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
 
+					{%if page.oldprice > '0' and price.oldprice > page.price %}
+					<h4 style:"color:'black';text-decoration:line-through">€{{ page.oldprice }}</h4>
+ 					{% endif %}
 					<h4>€{{ page.price }}</h4>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 					
