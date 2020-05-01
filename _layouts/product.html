@@ -10,10 +10,10 @@ layout: default
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
 
-					{% if page.oldprice != '0' %}
-					<h4bis>€{{ page.oldprice }}</h4bis>
- 					{% endif %}
-					<h4>€{{ page.price }}</h4>
+					
+					<h4>{% if page.oldprice != '0' %}
+					<span>€{{ page.oldprice }} </span>
+ 					{% endif %}€{{ page.price }}</h4>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 					
 				</div>
@@ -23,4 +23,3 @@ layout: default
 		</div>
 	</section>
 </div>
-
