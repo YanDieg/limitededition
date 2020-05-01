@@ -12,8 +12,7 @@ layout: default
 
 					
 					<h4>{% if page.oldprice != '0' %}
-					<span style='color:#000;text-decoration:line-through;">€{{ page.oldprice }} </span>
- 					{% endif %}€{{ page.price }}</h4>
+					<span style="color:#000;text-decoration:line-through;">€{{ page.oldprice }} </span>{% endif %}€{{ page.price }}</h4>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 					
 				</div>
