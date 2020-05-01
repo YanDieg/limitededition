@@ -17,7 +17,7 @@ subtitle: powered by gadgetmania.it
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>{% if product.oldprice != '0' %} <span style="text-decoration:line-through;">€{{product.oldprice}} </span>{% endif %}€{{ product.price }}</p>
+							<p>{% if product.oldprice != '0' %}<span style="text-decoration:line-through;">€{{product.oldprice}}</span>{ % endif %}€{{ product.price }}</p>
 						</div>
 					</li>
 				{% endfor %}
