@@ -1,6 +1,7 @@
 ---
 name:
 garment_type: top
+oldprice:
 price:
 sku:
 description:
