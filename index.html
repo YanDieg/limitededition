@@ -14,9 +14,6 @@ subtitle: powered by gadgetmania.it
 						{% include product-styles.html product=product %}
 						<div class="product-details">
 							<h4><a href="{{ site.baseurl }}/{{ product.url }}">{{ product.name }}</a></h4>
-							<div class="product-description">
-								{{ product.description_markdown | truncate: 45 | markdownify }}
-							</div>
 							<p>{% if product.oldprice != '0' %}<span style="text-decoration:line-through;">€{{product.oldprice}}</span>{% endif %}
 							€{{ product.price }}</p></div>
 					</li>
