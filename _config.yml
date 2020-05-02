@@ -5,7 +5,7 @@ title: gadgetmania.it
 url: yandieg.github.io/limitededition
 baseurl: 
 google_analytics_key:
-google_maps_javascript_api_key: "AIzaSyDvK2SrIvRM7YvEQizY8YsXBI9i_CE01sg"
+google_maps_javascript_api_key: 
 snipcart_key: "NTZiNTcxN2EtMDMyMi00YzJmLTkwNWEtMDk5NDhhY2YyZTIwNjM3MjM4NjQ5NjgxNTU2MzU2"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
